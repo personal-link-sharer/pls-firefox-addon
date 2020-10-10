@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "PLS - Personal Link Sharer",
+    "version": "0.1",
+  
+    "description": "Allows to share URLs/Links and any text between browsers.",
+    "homepage_url": "https://github.com/personal-link-sharer/pls-firefox-addon",
+    "icons": {
+      "512": "icons/icon.png"
+    },
+  
+    "permissions": [
+      "activeTab", "<all_urls>", "contextMenus", "storage"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_title": "Share links and text between browsers",
+      "default_popup": "popup/popup.html"
+    },
+
+    "background": {
+      "page": "background/background.html"
+    }  
+}

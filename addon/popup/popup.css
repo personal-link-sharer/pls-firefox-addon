@@ -1,0 +1,175 @@
+html, body {
+    width: 400px;
+    height: 450px;
+    overflow-y: hidden;
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(material-icons.woff2) format('woff2');
+}
+  
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-send .btn-floating {
+    background-color: rgb(255, 110, 110) !important;
+}
+
+.top-row {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 14%, rgba(136,219,255,1) 19%, rgba(136,219,255,0.8365546902354692) 100%); 
+}
+
+.input-field {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-right: 0 !important;
+}
+
+.send::placeholder {
+    color: rgb(116, 116, 116);
+    opacity: 1;
+}
+
+nav .sidenav-trigger {
+    height: auto !important;
+    float: none !important;
+}
+
+nav .sidenav-trigger i {
+    height: inherit !important;
+}
+
+nav i, nav i.material-icons {
+    line-height: inherit !important;
+}
+
+nav .left {
+    background-color: #1565c0;
+}
+
+nav .left i {
+    color: #444 !important;
+}
+
+nav .left .btn-floating {
+    background-color: #d9d9d9 !important;
+}
+
+nav {
+    background-color: #64b5f6 !important; /*#4fc3f7*/
+}
+
+nav .right .btn-floating {
+    background-color: #fff176 !important;
+}
+
+nav .right i {
+    color: #616161 !important;
+}
+
+.material-tooltip {
+    border-radius: 20px !important;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #1565c0 !important;
+    box-shadow: 0 1px 0 0 #0d47a1 !important;
+}
+
+.collection {
+    border: none !important;
+    overflow-y: auto !important;
+    height: calc(100% - 65px) !important;
+}
+
+.collection-item {
+    position: relative;
+}
+
+nav .input-field {
+    width: calc(400px - 155px);
+}
+
+.btn-remove {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 3px;
+    top: 5px;
+    position: absolute;
+    transition: 0.3s;
+    color: #c62828 !important;
+    opacity: 0.7;
+    z-index: 2;
+    right: 0;
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    border: 1px solid rgb(102, 102, 102);
+    background-color: rgba(255, 255, 255);
+    opacity: 1;
+}
+
+.btn-copy {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 3px;
+    top: 5px;
+    position: absolute;
+    transition: 0.3s;
+    color: grey !important;
+    opacity: 0.7;
+    z-index: 2;
+    right: 35px;
+    cursor: pointer;
+}
+
+.btn-copy:hover {
+    border: 1px solid rgb(102, 102, 102);
+    background-color: rgba(255, 255, 255);
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-title {
+    padding: 0 !important;
+    padding-left: 10px !important;
+}
+
+.row.container > .input-field {
+    margin-top: 35px !important;
+}
+
+.sidenav > .navbar-fixed > nav{
+    background-color: #0097a7 !important;
+}
+
+a.collection-item, li > a {
+    color: #ef6c00 !important;
+    transition: 0.25s;
+}
+
+li > a:hover {
+    background-color: #ddd;
+}
